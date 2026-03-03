@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+
+
+    <div class="filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="city">City</button>
+        <button data-filter="animals">Animals</button>
+    </div>
+
+    
+    <div class="gallery">
+        <div class="gallery-item" data-category="nature">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrVj4BHtXFKaekNNx-LVyoNIrWGYAFknabg&s" alt="">
+            <div class="overlay">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2017/03/leannecole-7-tips-urbanlandscapes42.jpg?fit=750%2C500&ssl=1" alt="">
+            <div class="overlay">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://webneel.com/daily/sites/default/files/images/daily/09-2013/6-squirrel-wildlife-photography.jpg" alt="">
+            <div class="overlay">Animals</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYTRzLea_0zPoz0O7aO_fsZNjo8V5g5FEEpA&s" alt="">
+            <div class="overlay">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="https://www.lukas-petereit.com/wp-content/uploads/2017/01/New-York-City-Washington-St-Street-Manhattan-Bridge-City-USA-America-Photography-Urban-NYC-Travel-Citylife-Range-Rover-Architecture.jpg" alt="">
+            <div class="overlay">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://news.wildlifesos.org/wp-content/uploads/2025/08/IMG_5193-scaled.jpg" alt="">
+            <div class="overlay">Animals</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://onetreeplanted.org/cdn/shop/files/dramatic-tree-1661526783684.jpg?v=1738153906" alt="">
+            <div class="overlay">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+            <img src="https://ihitthebutton.com/wp-content/uploads/2016/04/nyc-instagram-spots-top-of-the-rock-sunset-1-1024x601.jpg" alt="">
+            <div class="overlay">City</div>
+        </div>
+    </div>
+
+
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img">
+        <div class="controls">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
